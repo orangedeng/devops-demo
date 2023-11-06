@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: custom-html-configmap
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Welcome to DC test page</title>
+    </head>
+    <body>
+        <h1>Welcome to DC test page</h1>
+        <p>This page has been customized for deployment.</p>
+    </body>
+    </html>

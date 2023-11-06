@@ -1,0 +1,12 @@
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Welcome to region1 edge test page</title>
+    </head>
+    <body>
+        <h1>Welcome to edge test page</h1>
+        <p>This page has been customized for region1 deployment.</p>
+    </body>
+    </html>

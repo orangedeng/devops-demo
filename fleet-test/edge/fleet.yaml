@@ -1,0 +1,17 @@
+namespace: edge-example
+targetCustomizations:
+  - name: region1
+    clusterSelector:
+      matchLabels:
+        edge: region1
+    yaml:
+      overlays:
+        # Refers to overlays/noreplication folder
+        - "region1"
+  - name: region2
+    clusterSelector:
+      matchLabels:
+        edge: region2
+    yaml:
+      overlays:
+        - "region2"

@@ -1,0 +1,5 @@
+namespace: dc-example
+targetCustomizations:
+  - name: prod
+    clusterGroup: dc-group
+

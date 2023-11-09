@@ -6,7 +6,6 @@ targetCustomizations:
         edge: region1
     yaml:
       overlays:
-        # Refers to overlays/noreplication folder
         - "region1"
   - name: region2
     clusterSelector:
